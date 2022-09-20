@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
     branches: [ main ]
 
-name: rahul-test
+name: mdh-app
 
 jobs:
   deploy:
     name: Deploy
-    runs-on: python-flaskapp
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
