@@ -12,6 +12,6 @@ RUN apk add python3
 
 RUN pip3 install -r requirement.txt
 
-EXPOSE 8000 
+EXPOSE 8080 
 
 CMD ["python3","app.py"]
